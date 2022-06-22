@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import 'package:drc_tea_canteen/base/constants/app_images.dart';
+import 'package:drc_tea_canteen/screens/login/login_screen.dart';
 import 'package:drc_tea_canteen/widgets/image_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -36,7 +37,7 @@ class _splashScreenState extends State<SplashScreen>{
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 3),(){
-      //Navigator.of(context).pushAndRemoveUntil(LoginScreen.route(), (Route<dynamic> route) => false);
+      //Navigator.of(context).pushAndRemoveUntil(loginScreen().route(), (Route<dynamic> route) => false);
     });
   }
 

@@ -4,7 +4,6 @@ class AppImages {
   //static const String splashLogo = 'assets/images/splash_logo.png';
   static const String splashLogo = 'assets/images/splash_icon_bg.png';
 
-
   static const String icSmallLogo = 'assets/icons/appbar_logo.svg';
   static const String icError = 'assets/icons/ic_error.svg';
   static const String icAdd = 'assets/icons/ic_add.svg';
